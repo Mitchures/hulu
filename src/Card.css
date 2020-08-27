@@ -1,0 +1,30 @@
+.card {
+  color: white;
+  max-width: 500px;
+  height: 400px;
+  padding: 20px;
+  transition: transform 100ms;
+}
+
+.card:hover {
+  transform: scale(1.09);
+}
+
+.card:hover > .card__stats {
+  display: inline;
+}
+
+.card > img {
+  object-fit: contain;
+  max-width: 500px;
+  width: 100%;
+  height: 300px;
+}
+
+.card > h2 {
+  padding-top: 10px;
+}
+
+.card__stats {
+  display: none;
+}

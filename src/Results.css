@@ -1,0 +1,9 @@
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.results > div {
+  overflow: hidden;
+}
